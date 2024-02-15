@@ -70,19 +70,17 @@ if __name__ == '__main__':
     candidates: str = input("\nPlease enter a String collection electoral candidates below:\n")
     listOfEligibleCandidates(candidates, allCandidates, votes)
 
-    # displays several codes with its respective description
-    print("********************************")
-    print("| Code >> Description          |")
-    print("********************************")
-    print("|  1   >> Display candidates   |")
-    print("|  2   >> Vote a candidate     |")
-    print("|  3   >> Add new candidate(s) |")
-    print("|  4   >> Display results      |")
-    print("|  0   >> End SEVS             |")
-    print("********************************")
-
-
     while True:
+        # displays several codes with its respective description
+        print("********************************")
+        print("| Code >> Description          |")
+        print("********************************")
+        print("|  1   >> Display candidates   |")
+        print("|  2   >> Vote a candidate     |")
+        print("|  3   >> Add new candidate(s) |")
+        print("|  4   >> Display results      |")
+        print("|  0   >> End SEVS             |")
+        print("********************************")
         prompt = input("\nEnter a code, from the aforementioned, that corresponds to your task: ")
 
         # ------------------------------------------------------------------------------------------------------------------------------ #
